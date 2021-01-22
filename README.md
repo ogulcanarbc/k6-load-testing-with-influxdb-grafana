@@ -1,12 +1,12 @@
 **Required Installation**
 
-    Docker Deamon
+    * Docker Deamon
 
 **How to Run a Test?**
 
-`vus` and `duration` parameters must be defined
+* `vus` and `duration` parameters must be defined
 
-`vus=arg0 duration=arg1 file=arg2 docker-compose up`
+* command `vus=arg0 duration=arg1 file=arg2 docker-compose up`
 
 **Calculating RPS with k6**
 
