@@ -37,9 +37,9 @@
 configure fields as above
 
 * Create a dashboard
-* Click Graph to create a new graph panel
-* Click the Panel title and then Edit to set up the graph panel
-* Set the panel data source to your `myInfluxDB` database and click the SELECT mean(value)... statement to edit the metric
+* Click graph to create a new graph panel
+* Click the panel title and then edit to set up the graph panel
+* Set the panel data source to your `myInfluxDB` database and click the `SELECT mean(value)...` statement to edit the metric
 
 ![grafana-metric](https://user-images.githubusercontent.com/26281581/105518429-58177600-5ce9-11eb-865f-161f7073348e.png)
 
