@@ -1,4 +1,4 @@
-import {create_short_link, get_link_information} from "../request_method/shortened_api/request.js";
+import {create_short_link, get_link_information} from "../request_method/shortened_api_request.js";
 import {Rate} from 'k6/metrics';
 import {check} from 'k6';
 import papaparse from 'https://jslib.k6.io/papaparse/5.1.1/index.js';
