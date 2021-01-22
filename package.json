@@ -1,0 +1,24 @@
+{
+  "name": "k6_load_test",
+  "version": "1.0.0",
+  "description": "k6 load test project skeleton",
+  "main": "k6/scripts/shortening_link_test.js",
+  "author": "ogulcan.arabaci",
+  "license": "MIT",
+  "dependencies": {
+    "faker": "^5.1.0",
+    "postman-to-k6": "^1.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.8.2",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
+  },
+  "scripts": {
+    "pretest": "webpack",
+    "test": "k6 run k6/scripts/shortening_link_test.js"
+  }
+}
