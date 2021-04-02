@@ -16,7 +16,7 @@ export function setup() {
   console.log("Test started...")
 }
 
-export default function () {
+export default function() {
 
   let randomUrl = {
     url: urls[Math.floor(Math.random() * urls.length)]
